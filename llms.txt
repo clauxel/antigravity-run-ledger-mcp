@@ -1,12 +1,15 @@
-# Antigravity Run Ledger MCP
+# Antigravity Run Ledger
 
-Paid remote MCP for Antigravity agent run receipt MCP, structured receipts, audit logs, and reviewer-ready evidence.
+Antigravity Run Ledger is a hosted remote MCP for Antigravity agent run receipt MCP.
 
 Website: https://antigravityrunledger.clauxel.com/
+Docs pattern reference: https://github.com/clauxel/MiroFish
+Primary keyword: Antigravity agent run receipt MCP
+Type: MCP
+Default plan: team
 MCP endpoint: https://antigravityrunledger.clauxel.com/mcp
 Server card: https://antigravityrunledger.clauxel.com/server-card.json
-Docs: https://github.com/clauxel/antigravity-run-ledger-mcp
-
-Use case: Antigravity agent run receipt MCP with structured receipts.
-Authentication: Bearer token required for production use.
+Registry name: com.clauxel.antigravityrunledger/antigravityrunledger-mcp
 Tools: issue_run_receipt, summarize_agent_changes, check_test_evidence, flag_review_risk, export_run_log
+
+Public boundary: docs-only repository; no production source code or secrets.
